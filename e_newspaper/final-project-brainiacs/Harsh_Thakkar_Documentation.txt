@@ -1,0 +1,25 @@
+HARSH(N01297693)
+* Politics
+* Politics page consists news regarding to political parties, election etc.
+* Header- title on left, image on right and main heading on center using html and css
+* navbar used for navigation to all web pages.
+* Slider- added using html and css
+* Fieldset used to display news in different styles
+* Added images using img src tag with html code
+* Added video using video tag
+* Footer- with social media sites and subscribe options.
+
+* Entertainment
+* Entertainment page consists news of celebrities, hollywood etc.
+* Added marquee tag for movement of html element
+* Display content Using Jquery.
+* Added images using img src tag with html code
+* Javascript used for back to top functionality.
+
+* FAQs
+* Used Javascript to display questions in accordian 
+* Added chat popup in the webpage
+* Used localstorage to save message in the browser
+* display message in the second webpage using localstorage
+* Form Validation used for subscribe field in the footer using javascript 
+* Display message on figure when mouse hover on it.

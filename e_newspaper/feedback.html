@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="The customer feedback page collects the feedback from the custmers of all ages and
+    areas so that we could improve our sigte according to customer's views">
+    <meta name="keywords" content="Customer, Feedback,Form,Improvment,Apprecation">
+
+    <title>Customer Feedback</title>
+    <link href="styles/enews.css" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="project_images/e_paper_favicon.png">
+</head>
+<body>
+
+<header>
+    <span id="name">Canada Today </span>Customer Feedback<img id="himg" src="project_images/c1.png" width="100" height="40" alt="header image">
+</header>
+
+<nav class="mainnavigation">
+    <ul class="main_nav">
+        <li><a href="home.html">Home</a> </li>
+        <li class="dropdown" id="dropdown">
+            <a class="dropbtn">Categories</a>
+           <div class="dropdown-content">
+                        <a href="../Updated Harsh-Thakkar-ProjectPhase2/Entertainment.html">Entertainment</a>
+                        <a href="../Harsh-Thakkar-ProjectPhase1/Politics.html">Politics</a>
+                        <a href="../dishita_kshatriya_project_phase_2/sports.html">Sports</a>
+                        <a href="../dishita_kshatriya_project_phase3/health&lifestyle.html">Health & Lifestyle</a>
+                        <a href="../dishita_kshatriya_project_phase1/main_horoscope.html">Horoscope</a>
+                        <a href="../e_newspaper/technology.html">Technology</a>
+                        <a href="../e_newspaper/weather.html">Weather</a>
+                        <a href="../e_newspaper/crime.html">Crime</a>
+                    </div>
+                </li> <!-- list of other webpages--> 
+                <li><a href="videos.html">Videos </a></li>
+                <li><a href="events.html">Events</a> </li>
+                <li><a href="../e_newspaper/feedback.html">Customer Feedback</a></li>
+                <li><a href="../Updated Harsh-Thakkar-webProjectPhase3/FAQs.html">FAQs</a></li>
+
+    </ul>
+</nav>
+
+<main>
+    <div class="formcontainer">
+        <form name="feedbackform" method="get" action="feedback_received.html" id="feedbackform">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="fname" placeholder="Your first name">
+                    <span id = "errfname">*</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lname" placeholder="Your last name">
+                    <span id = "errlname">*</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="country">Country</label>
+                </div>
+                <div class="col-75">
+                    <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="subject">Subject</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
+
+                    <span id = "errsub">*</span>
+                </div>
+            </div>
+            <div class="row">
+                <input type="button" value="submit" id ="sub">
+            </div>
+        </form>
+    </div>
+    <div id="test"></div>
+
+
+
+
+</main>
+
+<footer>
+    <div class="copyright">
+        Copyright@brainiacs.com
+    </div>
+    <div class="icon-bar">
+        <a target="_blank" href="google.com"><i class="fa fa-2x fa-google-plus"></i></a>
+        <a target="_blank" href="facebook.com"><i class="fa fa-2x fa-facebook-square"></i></a>
+        <a target="_blank" href="twitter.com"><i class="fa fa-2x fa-twitter-square"></i></a>
+        <a target="_blank" href="instagram.com"><i class="fa fa-2x fa-instagram "></i></a>
+    </div>
+</footer>
+<script src="js/feedback.js" type="text/javascript">
+</script>
+</body>
+</html>

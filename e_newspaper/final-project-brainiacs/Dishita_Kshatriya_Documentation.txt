@@ -1,0 +1,22 @@
+1) Online newspaper- Worked on the below web pages
+* Horoscope News
+* Sports News
+* Health & Lifestyle News
+
+2) Horoscope News
+* Gives info about all zodiac signs
+* There is a background image with a button, clicking on which another section of the web page opens up
+* Positioned horoscope images and text using margin, padding 
+* Used media queries to make the web page responsive
+
+3) Sports News
+* Gives info about Football, Basketball & Cricket
+* There are different sections for all the sports
+* Used media queries to make the web page responsive
+
+4) Health & Lifestyle News
+* Contains a survey form that takes information from the user
+* Contains news articles in a grid format with read more option
+* Used media queries to make the web page responsive
+
+

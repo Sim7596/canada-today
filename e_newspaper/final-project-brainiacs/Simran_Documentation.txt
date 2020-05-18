@@ -1,0 +1,38 @@
+SIMRAN(N01291541)
+* Home Page
+* Home page consists of the introduction to our site, Canada Today.
+* Header- images on left and right and main heading using html and css
+* Slider- added using javascript, works manually
+* 3 descriptive boxes having link to about us, customer feedback and faqs page using javascript
+* Testimonials- customer’s review using html and css
+* Plans – added 5 different plans through which customer can choose their favorite plan. Use of javascript to show customers the valuves that they have chosen.
+* Footer- with social media sites.
+
+* Customer Feedback
+* Form consisting of first name, lastname, country subject so that customers can provide feedback to improve site
+* Mandatory fields are shown by asterisk
+* Placeholders are there for customer’s better understanding
+* Validation done on mandatory fields using javascript on clicking on submit button
+* Once the form is validated, it is redirected to feedback received page in which customers are informed that their feedback has been submitted successfully.
+
+* Technology
+* Added three different news using html and css
+* Using js, Added a button called click here . On clicking it toggle is done.
+* Div is shown at a time for expanding the news and after clicking on it again, news is collapsed.
+* Added effects on images on hover using javascript
+* Applied media queries to make it compatible in different devices
+
+* Crime
+* Added different news section regarding crime done with simple html and css
+* Added images using img src tag with html code
+* Added css on the images so that figcaption can be seen on hover over image
+* Added  doc file “Crime report form ” for download 
+
+* Weather
+* Added weather widget that shows weather of Canada for whole week
+* Added three different news sections regarding weather done with simple html and css
+* Added images using img src tag with html code
+* Added video using iframe
+* Applied media queries to make it compatible in different devices
+
+
